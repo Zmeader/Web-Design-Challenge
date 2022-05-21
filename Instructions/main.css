@@ -1,0 +1,105 @@
+/* CSS
+-------------------------------------------------- */
+body {
+  background-repeat: 3rem;
+  padding-bottom: 3rem;
+  color: #4a9274;
+  background-color:rgb(149, 152, 151)
+}
+
+.navbar {
+  background-color: rgb(246, 251, 248);
+  margin-bottom: 20px;
+  max-height: 100px;
+}
+/* Since positioning the image, we need to help out the caption */
+.navigation .navbar-brand {
+  color:rgb(253, 254, 253);
+  margin-left: 190px;
+  padding: inherit;
+  font-size: xx-large;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+img {
+  width: 120%;
+  height: 120%;
+  object-fit: contain;
+}
+
+.img1 {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: rgb(108, 160, 128);
+  font-size: 15px;
+}
+
+.visualization {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.table {
+  font-size: 15px;
+  border-top-color: rgb(255, 255, 255);
+}
+
+h2 {
+  color: rgb(108, 160, 128);
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+p {
+  color: rgb(10, 10, 10);
+  font-family: 'segoe ui';
+  font-size: 20px;
+  }
+
+.box {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 10px;
+  padding: 10px 30px 15px;
+  color:rgb(108, 160, 128);
+  background-color: #ffffff;
+}
+/* .box-1 {
+  height: 100%;
+  width: 100%;
+} */
+@media(max-width: 992px) {
+  .navbar-expand-lg {
+  background-color: #000000;
+  }
+  .navbar {
+    max-height: none;
+    padding: inherit;
+  }
+  .navbar div {
+    margin: inherit;
+    background-color: rgb(108, 160, 128);
+  }
+  .navbar-brand {
+    padding: 10px;
+  }
+  button{
+    margin-right: 30px;
+  }
+  button:focus {
+    outline: 1px dotted;
+    outline: auto 5px;
+  }
+}
